@@ -1,3 +1,8 @@
+    while True:
+        try:
+            return float(input(prompt))
+        except ValueError:
+            print("error")
 def add(a,b):
 	return a + b
 def substract(a, b):
